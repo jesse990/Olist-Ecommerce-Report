@@ -37,3 +37,8 @@ This project explores the **Olist Brazilian e-commerce dataset** through a multi
 **Source**: [Olist Public Dataset](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)  
 **Contents**: Customers, orders, products, payments, reviews, sellers, and geolocation.  
 **Use Case**: Evaluate business performance drivers, customer retention, and delivery efficiency to support strategic decisions.  
+
+## Dataprep
+- Created Unique customer and product dimension tables.
+- Original Customer table had a customer id and a unique customer id,with each unique customer having multiple customer ids
+- Some Customers had multiple address' under their id so for the customers (dimension) view I opted to use their first address
